@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finacial Website</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Link Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./img/Favicon/Favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-color-primary text-color-white tracking-wider">
+    <!-- Header Start -->
+    <header class="">
+      <nav class="container flex justify-between items-center">
+        <div class="py-5 text-color-secondary font-bold text-3xl">
+          <a href="#home"> <span class="text-color-white">Light</span>Code. </a>
+        </div>
+        <div>
+          <ul class="hidden lg:flex items-center space-x-6">
+            <li>
+              <a
+                href="#home"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonial"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <button
+                class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200"
+              >
+                free trial
+              </button>
+            </li>
+          </ul>
+        </div>
+        <!-- Mobile screen  -->
+        <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div
+          id="menu"
+          class="hidden bg-color-primary-dark h-[100vh] absolute inset-0"
+        >
+          <ul class="h-full grid place-items-center py-20">
+            <li>
+              <a
+                id="hLink"
+                href="#home"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                id="hLink"
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                id="hLink"
+                href="#testimonial"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a
+                id="hLink"
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                id="hLink"
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                id="hLink"
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+            <li><button class="btn">free trial</button></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Part Start -->
+
+    <main>
+      <!-- If you need to use bg color for full width you can use that here -->
+      <!-- For that usage i don't use container here and this have access of full width -->
+      <section id="banner" class="relative">
+        <!-- Blob 1-->
+        <div
+          class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
+        ></div>
+        <!-- Blob 2 -->
+        <div
+          class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
+        ></div>
+        <!-- This is container div. This div contain all content -->
+        <div class="container py-20">
+          <!-- Flex Container -->
+          <div class="flex flex-col items-center md:flex-row z-20">
+            <!-- Flex Content -->
+            <div class="text-center mb-12 md:text-left md:w-1/2 md:mr-10">
+              <h1
+                class="text-3xl md:text-4xl lg:text-7xl font-bold leading-snug mb-10"
+              >
+                Awesome App For Your Financial
+              </h1>
+              <p class="leading-relaxed mb-10">
+                This shoulb be used to tell a story and let your users know a
+                little more about app and it's use.How can benefit them.
+              </p>
+              <button
+                class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover: opacity-80 ease-in duration-200"
+              >
+                Download App
+              </button>
+            </div>
+            <!-- Flex Image -->
+            <div class="md:w-1/2">
+              <img src="./img/hero4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Now you can understand why not to use conatiner class on section tag.-->
+      <section id="Features" class="bg-color-primary-light">
+        <!-- Conatiner Div -->
+        <div class="container py-20">
+          <!-- Text Content -->
+          <div class="text-center m-auto mb-20 lg:w-1/2">
+            <h4 class="font-bold text-color-secondary mb-4">Ore Future</h4>
+            <p class="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug">
+              Easy To Manage Your All Payments By Our App
+            </p>
+          </div>
+          <!-- Grid Container -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8"
+          >
+            <!-- Card One -->
+            <div
+              class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200"
+            >
+              <div
+                class="bg-color-secondary inline-block rounded-2xl py-5 px-6"
+              >
+                <i class="fa-solid fa-calendar-days text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Expense Trackering</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away.
+              </p>
+            </div>
+            <!-- Card Two -->
+            <div
+              class="bg-color-primary-dark border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200"
+            >
+              <div
+                class="bg-color-secondary inline-block rounded-2xl py-5 px-6"
+              >
+                <i class="fa-solid fa-calendar-days text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away.
+              </p>
+            </div>
+            <!-- Card Three -->
+            <div
+              class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200"
+            >
+              <div
+                class="bg-color-secondary inline-block rounded-2xl py-5 px-6"
+              >
+                <i class="fa-solid fa-calendar-days text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Support</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Saving Money Section -->
+
+      <section id="saving-money">
+        <!-- Container Div -->
+        <div class="container py-20 relative">
+          <!-- Blob 1-->
+          <div
+            class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
+          ></div>
+          <!-- Blob 2 -->
+          <div
+            class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
+          ></div>
+          <!-- Flex Container -->
+          <div class="flex flex-col items-center justify-between md:flex-row">
+            <!-- Img Part -->
+            <div class="mb-12 md:w-1/2">
+              <img src="./img/hero3.png" alt="" />
+            </div>
+            <!-- Content Part -->
+            <div class="text-center md:text-left md:w-1/2 md:ml-20">
+              <h4 class="font-bold text-color-secondary mb-4">Saving Money</h4>
+              <h1
+                class="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug mb-4"
+              >
+                Best financial app to save money
+              </h1>
+              <p class="leading-relaxed mb-10">
+                Best financial app ever in the world. Easy to use and very user
+                friendly for mobile banking. You can control your card easily
+                and send money to someone just one click.
+              </p>
+              <button
+                class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover: opacity-80 ease-in duration-200"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it work Section -->
+
+      <section></section>
+    </main>
+
+    <script>
+      // For Mobile Menu
+      // Mobile menu
+      const hamburger = document.querySelector("#hamburger");
+      const menu = document.querySelector("#menu");
+      const hLink = document.querySelectorAll("#hLink");
+      const faSolid = document.querySelector(".fa-solid");
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        faSolid.classList.toggle("fa-xmark");
+      });
+      hLink.forEach((link) => {
+        link.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+          faSolid.classList.toggle("fa-xmark");
+        });
+      });
+    </script>
+  </body>
+</html>
